@@ -1,41 +1,26 @@
-BeeHere – Film Festival Travel Planner
+# 📍 BeeHere – Film Festival Travel Planner
 
+**BeeHere** is a React Native mobile app prototype designed to help movie lovers attending film festivals discover filming locations and build personalized travel itineraries. This project focuses on the **Vancouver International Film Festival (VIFF)** as a sample use case, demonstrating map integration, location search, and local itinerary management using OpenCage API.
 
-✨ Features
-🗺️ Interactive map centered on Downtown Vancouver
-📍 Preloaded VIFF venue markers
-🔍 Search any location by name or address
-🪧 View location type and category metadata
-✅ Add or remove locations from your itinerary
-🧾 Scrollable list of saved locations
-📄 Mock profile view and personalized greeting
-⏳ Simulated loading screen using timeout
+---
 
+## ✨ Features
 
-🔧 Tech Stack
-React Native + Expo
-React Navigation
-OpenCage Geocoding API
-Map integration with react-native-maps
-Modal and interactive UI components from React Native Core
+- 🗺️ Interactive map centered on Downtown Vancouver  
+- 📍 Preloaded VIFF venue markers  
+- 🔍 Search any location by name or address  
+- 🪧 View location type and category metadata  
+- ✅ Add or remove locations from your itinerary  
+- 🧾 Scrollable list of saved locations  
+- 📄 Mock profile view and personalized greeting  
+- ⏳ Simulated loading screen using timeout
 
+---
 
-📌 Setup & Run Locally
-Clone the repo
-git clone https://github.com/your-username/BeeHere.git
+## 🔧 Tech Stack
 
-Install dependencies
-npm install
-
-Start the development server
-npx expo start
-
-Requires: Node.js, Expo CLI, Expo Go app on your phone (or Android/iOS emulator)
-
-
-📚 Future Improvements
-Hookstate integration for global state
-Custom film-location API with curated data
-Persistent user profiles and saved itineraries
-Route planning and map filtering features
-Improved visuals and animations
+- [React Native + Expo](https://expo.dev)  
+- [React Navigation](https://reactnavigation.org/)  
+- [OpenCage Geocoding API](https://opencagedata.com/)  
+- `react-native-maps` for map rendering  
+- Native components: `Modal`, `TouchableOpacity`, `ScrollView`, etc.
