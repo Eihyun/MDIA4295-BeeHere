@@ -1,0 +1,16 @@
+[
+  {
+    "id": "loc_001",
+    "locationName": "Orpheum Theatre",
+    "note": "Saw the opening gala here! Beautiful venue.",
+    "rating": 5,
+    "visited": true
+  },
+  {
+    "id": "loc_002",
+    "locationName": "Queen Elizabeth Theatre",
+    "note": "Looking forward to the closing event.",
+    "rating": 0,
+    "visited": false
+  }
+]

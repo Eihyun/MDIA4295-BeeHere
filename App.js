@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 import { NavigationContainer } from '@react-navigation/native';
 import TabNavigator from './navigation/TabNavigator';
-import LoadingScreen from './screens/LoadingScreen';
+import LoadingScreen from './src/screens/LoadingScreen';
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
