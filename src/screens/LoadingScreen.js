@@ -5,7 +5,7 @@ export default function LoadingScreen() {
         <View style={StyleSheet.container}>
             <Image 
                 style={[styles.loadingImg, {resizeMode: 'stretch'}]}
-                source={require('../assets/Splash.png')}
+                source={require('../../assets/Splash.png')}
             />
         </View>
     );

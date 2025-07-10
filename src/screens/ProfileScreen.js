@@ -10,7 +10,7 @@ export default function ProfileScreen() {
         <View style={styles.profileInfo}>
           <Image 
             style={styles.profileImg}
-            source={require('../assets/profile-image.png')}
+            source={require('../../assets/profile-image.png')}
           />
           <Text style={styles.name}>Sarah</Text>
         </View>
