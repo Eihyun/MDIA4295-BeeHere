@@ -3,7 +3,6 @@ import { MaterialIcons } from '@expo/vector-icons';
 
 import HomeScreen from '../src/screens/HomeScreen';
 import ExploreScreen from '../src/screens/ExploreScreen';
-import JournalScreen from '../src/screens/JournalScreen';
 import ProfileScreen from '../src/screens/ProfileScreen';
 
 const Tab = createBottomTabNavigator();
@@ -24,7 +23,6 @@ export default function TabNavigator() {
 
                     if (route.name === 'Home') iconName = 'home';
                     else if (route.name === 'Explore') iconName = 'search';
-                    else if (route.name === 'Journal') iconName = 'book';
                     else if (route.name === 'Profile') iconName = 'person';
 
                     return <MaterialIcons name={iconName} type="material" color={color} size={size} />;
@@ -37,7 +35,6 @@ export default function TabNavigator() {
         >
             <Tab.Screen name="Home" component={HomeScreen} />
             <Tab.Screen name="Explore" component={ExploreScreen} />
-            <Tab.Screen name="Journal" component={JournalScreen} />
             <Tab.Screen name="Profile" component={ProfileScreen} />
         </Tab.Navigator>
     );
